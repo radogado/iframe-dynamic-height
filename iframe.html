@@ -1,0 +1,20 @@
+	<body style="margin: 0;">
+		
+		<div id=site-wrapper>
+			
+			A<br>
+			A<br>
+			A		
+		
+		</div>
+		
+		<script>
+			
+			parent.window.setiFrameHeight(document.querySelector('#site-wrapper').scrollHeight);
+			window.addEventListener('resize', function () { parent.window.setiFrameHeight(document.querySelector('#site-wrapper').scrollHeight); });
+		
+		</script>
+		
+	</body>
+
+
